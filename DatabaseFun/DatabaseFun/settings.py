@@ -83,17 +83,24 @@ DATABASES = {
         #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'SHOUT',
         
-        'USER': 'dbsadm',
-        'PASSWORD': 'petron88$$',
-        'HOST': 'S15HO-DBS11',
+        #for work
+        #'NAME': 'SHOUT',        
+        #'USER': 'dbsadm',
+        #'PASSWORD': 'petron88$$',
+        #'HOST': 'S15HO-DBS11',
+        #'PORT': '1433',
 
+        #for home
+        'NAME': 'TestDB',        
+        'USER': 'sa',
+        'PASSWORD': 'petron88$$',
+        'HOST': 'DESKTOP-D62MTS0\SQLEXPRESS',
         #'USER': 'shoutadm',        
         #'PASSWORD': 'Sh0ut4dm',
         #'HOST': 'V15DS1-VSQL',        
 
-        'PORT': '1433',
+        
 
         'OPTIONS': {
             'driver': 'ODBC Driver 13 for SQL Server',
