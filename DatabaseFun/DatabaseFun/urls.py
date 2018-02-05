@@ -17,6 +17,7 @@ import app.views
 urlpatterns = [
     # Examples:
     url(r'^artists$', app.views.artists, name = 'artists'),
+    url(r'artists/create$', app.views.artistcreate, name = 'artistcreate'),
     url(r'^artists/(?P<id>\d+)$', app.views.artistdetails, name = 'artistdetails' ),
 
     url(r'^$', app.views.home, name='home'),
