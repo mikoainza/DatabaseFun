@@ -2,3 +2,4 @@ django == 2.0.1
 django-pyodbc-azure == 2.0.1.0
 pyodbc == 4.0.22
 setuptools == 38.4.0
+pyrfc == 1.9.7

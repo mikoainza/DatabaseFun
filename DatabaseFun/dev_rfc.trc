@@ -1,0 +1,63 @@
+
+**** Trace file opened at 2018-02-06, 21:00:40 China Standard Time
+RFC Library Release: 721 Patch Level 44, Compiled on Nov 22 2017 23:31:20
+ CPIC library: 721.2017.07.27 version 3, NI library: 40, Kernel Release: 721 Patch Level 0
+ Current working directory: C:\Program Files (x86)\Visual Studio Projects\Python Programs\DatabaseFun\DatabaseFun, Program: python
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 60 Step 3), Operating_system: Windows NT 6.1
+ Hostname: N14HO-ABA11, IP address: 10.55.70.124, IPv6 address: 10.55.70.124
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host N14HO-ABA11 with Unicode
+ERROR       hostname 'myhostserver' unknown
+TIME        Tue Feb 06 21:00:40 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: 'myhostserver' not found
+SYSTEM CALL getaddrinfo
+COUNTER     2
+
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'x14ho-ip012' unknown
+TIME        Tue Feb 06 21:02:36 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: 'x14ho-ip012' not found
+SYSTEM CALL getaddrinfo
+COUNTER     7
+
+
+
+**** Trace file opened at 2018-02-07, 09:46:20 China Standard Time
+RFC Library Release: 721 Patch Level 44, Compiled on Nov 22 2017 23:31:20
+ CPIC library: 721.2017.07.27 version 3, NI library: 40, Kernel Release: 721 Patch Level 0
+ Current working directory: C:\Program Files (x86)\Visual Studio Projects\Python Programs\DatabaseFun\DatabaseFun, Program: python
+ Hardware: PC with Windows NT 4x AMD64 Level 6 (Mod 60 Step 3), Operating_system: Windows NT 6.1
+ Hostname: N14HO-ABA11, IP address: 10.50.71.98, IPv6 address: 10.50.71.98
+
+Error during connect: 
+LOCATION    CPIC (TCP/IP) on local host with Unicode
+ERROR       hostname 'x16ds-iq013' unknown
+TIME        Wed Feb 07 09:46:20 2018
+RELEASE     721
+COMPONENT   NI (network interface)
+VERSION     40
+RC          -2
+MODULE      ninti.c
+LINE        897
+DETAIL      NiPGetHostByName: 'x16ds-iq013' not found
+SYSTEM CALL getaddrinfo
+COUNTER     3
+
+
+ABAP Message during connect: Name or password is incorrect (repeat logon)
+

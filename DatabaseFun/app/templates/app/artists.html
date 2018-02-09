@@ -1,20 +1,19 @@
-﻿<!DOCTYPE html>
+﻿{% extends 'app/layout.html' %}
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>Artists</title>
-</head>
-<body>
+{% block content %}
 <h2>Artists</h2>
-<ul>
+
     {%  for artist in artists %}
-    <li>
-        <a href="/artists/{{artist.id}}">
-        {{ artist.name}}
-        </a>
-    </li>
+    <div class="row">
+        <div class="col-md-3">
+            <a href="/artists/{{artist.id}}">
+                {{ artist.name}}
+            </a>
+        </div>
+        <div class="col-md-2">
+            {{ artist.year_formed}}
+        </div>
+    </div>
     {% endfor %}
-</ul>
-</body>
-</html>
+
+{% endblock %}
