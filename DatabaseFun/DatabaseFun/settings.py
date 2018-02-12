@@ -85,17 +85,17 @@ DATABASES = {
         'ENGINE': 'sql_server.pyodbc',
         
         #for work
-        'NAME': 'SHOUT',        
-        'USER': 'dbsadm',
-        'PASSWORD': 'petron88$$',
-        'HOST': 'S15HO-DBS11',
-        'PORT': '1433',
+        #'NAME': 'SHOUT',        
+        #'USER': 'dbsadm',
+        #'PASSWORD': 'petron88$$',
+        #'HOST': 'S15HO-DBS11',
+        #'PORT': '1433',
 
         #for home
-        #'NAME': 'TestDB',        
-        #'USER': 'sa',
-        #'PASSWORD': 'petron88$$',
-        #'HOST': 'DESKTOP-D62MTS0\SQLEXPRESS',       
+        'NAME': 'TestDB',        
+        'USER': 'sa',
+        'PASSWORD': 'petron88$$',
+        'HOST': 'DESKTOP-D62MTS0\SQLEXPRESS',       
 
         'OPTIONS': {
             'driver': 'ODBC Driver 13 for SQL Server',
