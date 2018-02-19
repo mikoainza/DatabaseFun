@@ -34,6 +34,9 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'app',
     # Add your apps here to enable them
+    #added bootstrap 4, 02/19/2018
+    'bootstrap4',
+    #/end
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

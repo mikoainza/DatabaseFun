@@ -1,10 +1,12 @@
 ﻿{% extends 'app/layout.html' %}
 
 {% block content %}
-    <form method="post">
-        {% csrf_token %}
-        {{ form }}
-        <button type="submit">Save</button>
-    </form>
+{% load bootstrap4 %}
+    <form method="post" class="form">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% buttons %}
+        <button type="submit" class="btn btn-primary">Save</button>
+    {% endbuttons %}
 
 {% endblock %}
