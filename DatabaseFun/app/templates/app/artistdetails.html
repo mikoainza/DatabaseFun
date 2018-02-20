@@ -1,13 +1,8 @@
-﻿<!DOCTYPE html>
+﻿{% extends 'app/layout.html' %}
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-{% extends 'app/layout.html' %}
-
-{% block content %}
-<body>
+{% block content %}   
+    
     <h2>{{ artist.name }}</h2>
     <h3>Year formed: {{ artist.year_formed }}</h3>
-</body>
-</html>
-
+    
 {% endblock %}

@@ -2,8 +2,9 @@
 
 {% block content %}
 <h2>Artists</h2>
-
-    {%  for artist in artists %}
+  <div class="row">
+    <div class="col-sm">
+      {%  for artist in artists %}
     <div class="row">
         <div class="col-md-3">
             <a href="/artists/{{artist.id}}">
@@ -15,5 +16,6 @@
         </div>
     </div>
     {% endfor %}
-
+    </div>
+  </div>
 {% endblock %}
