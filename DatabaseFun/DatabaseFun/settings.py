@@ -34,6 +34,9 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'app',
     # Add your apps here to enable them
+    #added bootstrap 4, 02/19/2018
+    'bootstrap4',
+    #/end
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -85,17 +88,17 @@ DATABASES = {
         'ENGINE': 'sql_server.pyodbc',
         
         #for work
-        'NAME': 'SHOUT',        
-        'USER': 'dbsadm',
-        'PASSWORD': 'petron88$$',
-        'HOST': 'S15HO-DBS11',
-        'PORT': '1433',
+        #'NAME': 'SHOUT',        
+        #'USER': 'dbsadm',
+        #'PASSWORD': 'petron88$$',
+        #'HOST': 'S15HO-DBS11',
+        #'PORT': '1433',
 
         #for home
-        #'NAME': 'TestDB',        
-        #'USER': 'sa',
-        #'PASSWORD': 'petron88$$',
-        #'HOST': 'DESKTOP-D62MTS0\SQLEXPRESS',       
+        'NAME': 'TestDB',        
+        'USER': 'sa',
+        'PASSWORD': 'petron88$$',
+        'HOST': 'DESKTOP-D62MTS0\SQLEXPRESS',       
 
         'OPTIONS': {
             'driver': 'ODBC Driver 13 for SQL Server',

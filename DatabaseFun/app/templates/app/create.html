@@ -1,10 +1,15 @@
 ﻿{% extends 'app/layout.html' %}
 
 {% block content %}
-    <form method="post">
-        {% csrf_token %}
-        {{ form }}
-        <button type="submit">Save</button>
-    </form>
-
+{% load bootstrap4 %}
+   <div class="container">
+     <form action="/url/to/submit/" method="post" class="form">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {#{% bootstrap_field form.name layout='inline' %}#}
+    {#<small id="nameHelp" class="form-text text-muted">whoah</small>#}
+    {% buttons %}
+        <button type="submit" class="btn btn-success">Save</button>
+    {% endbuttons %}
+    </div>
 {% endblock %}
